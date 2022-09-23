@@ -1,0 +1,41 @@
+// DataTypes : Variable  me jo data Hai,wo kis category ka ha like string ha,null ha etc us category ko dataTypes kehty ha
+// Example:
+// let a = "Harry"  yaha is ki datatype string ha
+// let b = 7  yaha is ki datatype number ha
+
+// 2 types of DataTypes
+
+//1- Primitive Data Types
+//2- Objects(non primitive datatype)
+
+//1- Primitive Data Types
+// primitive Data types wo data types huty hain jo javaScript me build in huty hain
+// In JS, there are 7 primitive types
+//nn bb ss u
+//null number boolean bigInt string symbol undefined
+
+//2- Objects(non primitive datatype)
+//Object(non primitive datatype) is a  collection of data with key value pairs
+let data = {
+  tayy: "ssasa",
+  nm: 23,
+};
+console.log(data.nm);
+//   or
+let data2 = {
+  "tayy": "ssasa",
+  "nm": 23,
+};
+console.log(data["nm"]);
+
+
+Add values in Object
+const data = {
+  name: "Tayyab",
+  age: 78,
+};
+
+data["school"] = "the grammar";
+data.address = "Kashmir";
+console.log(data);
+
